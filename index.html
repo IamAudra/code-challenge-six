@@ -12,6 +12,19 @@
     <title>Code Challenge Six</title>
 </head>
 <body>
+   
+  <nav>
+      <p class="text-2xl border-black border-b-2 p-5">Book a Table</p>
+      <ul>
+         <li class=" text-sm text-gray-300 pt-2 ">COUNTRIES</li> 
+         <li>Canada</li>
+         <li>United States</li>
+      </ul>
+    <div>
+        Or Find Nearby Locations
+    </div>
+    <button class="border-solid border-black border-2 p-2"> Use My Location</button>
+  </nav>  
     <div class="my-bkg">
         <p> My Starting Point</p>
 
@@ -55,9 +68,17 @@
 
 
   <!-- Begin First Image Section -->
-    <div class="w-screen h-1/4"> 
-        <img src="Images/dinner-banner.jpg">
+    <div class="w-screen h-1/4 z-1"> 
+        <img src="Images/dinner-banner.jpg"
+        class="text-white text-2xl ">
+        <p>All the way to the Holidays</p>
     </div> 
+ <!-- Ends First Image Section -->
+
+ <!-- Book A Table Button begin -->
+<div class="bg-red-800 fixed bottom-0 right-0 m-6 p-5 cursor-pointer rounded-full h-40 w-30">
+    <p class="text-white p-3 mt-6 font-bold text-1xl">Book a Table -></p>
+</div>
 
 <div class=" ml-10 flex space-between">
     <div class= "text-green-600 text-green-600  text-sm">
@@ -75,7 +96,7 @@
     </div>
 </div>
 
-<div class="ml-10 flex space-between">
+<div class="ml-10 flex justify-content space-between">
 </div class="flex mt-20">
     <i class="fas fa-child"></i>
 
