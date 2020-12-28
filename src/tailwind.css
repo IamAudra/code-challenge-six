@@ -8,4 +8,7 @@ yarn */
     @apply bg-black
 }
 
-@tailwind utilities;
+.nav-bar{ 
+    @apply  transform translate-x-96 
+}
+@tailwind utilities
