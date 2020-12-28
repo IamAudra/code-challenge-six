@@ -11,9 +11,13 @@
     <title>My Slider Project</title>
     <title>Code Challenge Six</title>
 </head>
-<body>
-   
-  <nav class="fixed bg-white h-screen p-20" >
+<body class="sidebar">
+
+    
+       <!-- Begin Nav Bar Section -->
+  <nav class="fixed bg-white h-screen w-96 p-20 transform -translate-x-96  cursor-pointer" 
+  id="nav-bar">
+ 
       <p class="text-3xl border-black border-b-2">Book a Table</p>
       <ul>
          <li class="  text-gray-300 font-bold pt-5  ">COUNTRIES</li> 
@@ -28,7 +32,7 @@
   </nav>  
     <div class="my-bkg">
         <p> My Starting Point</p>
-
+    </nav>
     </div>
 
     <!-- Begin Header Section -->
@@ -73,13 +77,17 @@
         <img src="Images/dinner-banner.jpg"
         class="text-white text-2xl ">
         <p>All the way to the Holidays</p>
-    </div> 
+           </div> 
  <!-- Ends First Image Section -->
 
  <!-- Book A Table Button begin -->
-<div class="bg-red-800 fixed bottom-0 right-0 m-6 p-5 cursor-pointer rounded-full h-40 w-30">
+<div class="bg-red-800 fixed bottom-0 right-0 m-6 p-5 cursor-pointer 
+rounded-full h-40 w-30 hover: animate-scale-100"
+    id="book-table">
     <p class="text-white p-3 mt-6 font-bold text-1xl">Book a Table -></p>
 </div>
+<!-- Book A Table Button end -->
+
 
 <div class=" ml-10 flex space-between">
     <div class= "text-green-600 text-green-600  text-sm">
@@ -97,24 +105,25 @@
     </div>
 </div>
 
-<div class="ml-10 flex justify-content space-between">
-</div class="flex mt-20">
+<div class="ml-10 flex justify-content">
+    <!--  -->
+<!-- </div class="flex mt-20">  -->
     <i class="fas fa-child"></i>
 
-    <div class="mt-20">
-    <img class="h-40 w-36"
+    <div class=" pt-15 p-10">
+    <img class="h-110 w-100"
     src="Images/shrimp-400px.jpg">  
     <p> Thai Prawn Curry Bowl</p> 
     </div>
 
-    <div class="">
-        <img class="h-40 w-36"
+    <div class=" pt-15 p-10">
+        <img class="h-110 w-100"
         src="Images/Calamari-400px.jpg">
         <p>Chipotle Calamari</p>   
     </div>
 
-    <div class="">
-            <img class="h-40 w-36"
+    <div class=" pt-15 p-10 mr-60">
+            <img class="h-110 w-100"
             src="Images/steak-and-mushroom-400px.jpg">   
             <p>Roasted Mushroom Sirloin</p>
     </div>
@@ -192,6 +201,6 @@
      <!-- End First Image Section -->
 
 
-
+     <script src="app.js"></script>
 </body>
 </html>
